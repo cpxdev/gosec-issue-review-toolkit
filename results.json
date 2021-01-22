@@ -1,0 +1,137 @@
+{
+	"issues": [
+		{
+			"engineId": "gosec",
+			"ruleId": "G304",
+			"cwe": {
+				"ID": "22",
+				"URL": "https://cwe.mitre.org/data/definitions/22.html"
+			},
+			"primaryLocation": {
+				"message": "Potential file inclusion via variable",
+				"filePath": "D:\\file-watcher\\utils\\Logger.go",
+				"textRange": {
+					"startLine": 23,
+					"endLine": 24
+				}
+			},
+			"type": "VULNERABILITY",
+			"severity": "MAJOR",
+			"effortMinutes": 5
+		},
+		{
+			"engineId": "gosec",
+			"ruleId": "G304",
+			"cwe": {
+				"ID": "22",
+				"URL": "https://cwe.mitre.org/data/definitions/22.html"
+			},
+			"primaryLocation": {
+				"message": "Potential file inclusion via variable",
+				"filePath": "D:\\file-watcher\\utils\\FileUtils.go",
+				"textRange": {
+					"startLine": 63,
+					"endLine": 63
+				}
+			},
+			"type": "VULNERABILITY",
+			"severity": "MAJOR",
+			"effortMinutes": 5
+		},
+		{
+			"engineId": "gosec",
+			"ruleId": "G304",
+			"cwe": {
+				"ID": "22",
+				"URL": "https://cwe.mitre.org/data/definitions/22.html"
+			},
+			"primaryLocation": {
+				"message": "Potential file inclusion via variable",
+				"filePath": "D:\\file-watcher\\utils\\Base64Utils.go",
+				"textRange": {
+					"startLine": 11,
+					"endLine": 11
+				}
+			},
+			"type": "VULNERABILITY",
+			"severity": "MAJOR",
+			"effortMinutes": 5
+		},
+		{
+			"engineId": "gosec",
+			"ruleId": "G302",
+			"cwe": {
+				"ID": "276",
+				"URL": "https://cwe.mitre.org/data/definitions/276.html"
+			},
+			"primaryLocation": {
+				"message": "Expect file permissions to be 0600 or less",
+				"filePath": "D:\\file-watcher\\utils\\Logger.go",
+				"textRange": {
+					"startLine": 23,
+					"endLine": 24
+				}
+			},
+			"type": "VULNERABILITY",
+			"severity": "MAJOR",
+			"effortMinutes": 5
+		},
+		{
+			"engineId": "gosec",
+			"ruleId": "G104",
+			"cwe": {
+				"ID": "703",
+				"URL": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"primaryLocation": {
+				"message": "Errors unhandled.",
+				"filePath": "D:\\file-watcher\\service\\SQLiteService.go",
+				"textRange": {
+					"startLine": 20,
+					"endLine": 20
+				}
+			},
+			"type": "VULNERABILITY",
+			"severity": "MINOR",
+			"effortMinutes": 5
+		},
+		{
+			"engineId": "gosec",
+			"ruleId": "G104",
+			"cwe": {
+				"ID": "703",
+				"URL": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"primaryLocation": {
+				"message": "Errors unhandled.",
+				"filePath": "D:\\file-watcher\\service\\SQLiteService.go",
+				"textRange": {
+					"startLine": 16,
+					"endLine": 16
+				}
+			},
+			"type": "VULNERABILITY",
+			"severity": "MINOR",
+			"effortMinutes": 5
+		},
+		{
+			"engineId": "gosec",
+			"ruleId": "G104",
+			"cwe": {
+				"ID": "703",
+				"URL": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"primaryLocation": {
+				"message": "Errors unhandled.",
+				"filePath": "D:\\file-watcher\\service\\FileChangeLogger.go",
+				"textRange": {
+					"startLine": 103,
+					"endLine": 103
+				}
+			},
+			"type": "VULNERABILITY",
+			"severity": "MINOR",
+			"effortMinutes": 5
+		}
+	]
+}
