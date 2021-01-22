@@ -10,8 +10,7 @@ Command line tool for generating excel report from gosec's issue JSON file in So
 
 ### 1) Export excel using source code
 
-- Extract project  
-- Import Project in Eclipse 
+- Extract and Import Project in Eclipse 
 - Clean & package the application: mvn clean install
 - Run ReportProcess.java file with below command-line arguments:  
     - Format:  
